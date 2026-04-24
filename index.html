@@ -224,7 +224,7 @@
       0%, 100% { transform: scale(1); }
       50%       { transform: scale(1.1); }
     }
-    /* ✏️ EDIT: Change the footer message */
+   
     .footer-text {
       position: relative;
       z-index: 1;
@@ -369,7 +369,7 @@
 <script>
   const months = ['January','February','March','April','May','June',
                   'July','August','September','October','November','December'];
-  const now = new Date();
+  const now = new Date(2026,3,25);
   document.getElementById('today-date').textContent =
     months[now.getMonth()] + ' ' + now.getDate() + ', ' + now.getFullYear();
 
